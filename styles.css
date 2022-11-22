@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.left{
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 5%;
+}
+
+h2{
+    margin: 50px;
+    font-weight: 400;
+    
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 95%;
+}
+
+.photo{
+    background-image: url("blue.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    margin-right: 150px;
+}
